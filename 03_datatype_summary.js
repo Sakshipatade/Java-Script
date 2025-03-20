@@ -61,7 +61,3 @@ const myFunction = function(){
     function => function
     
 */
-
-
-
-
