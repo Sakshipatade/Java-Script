@@ -5,10 +5,10 @@ let myFavFruits = ["apple", "mango", "banana", "orange"];
 console.log(myFavFruits);
 
 myFavNames.push(myFavFruits);
-console.log(myFavNames);
+console.log(myFavNames);//here whenever we push one content of file into another it will look like array within array like [1,2,[3,4]] 1 and 2 are content if file 1 and 3, content of file 2
 
 let myChoice =myFavNames.concat(myFavFruits);
-console.log(myChoice);
+console.log(myChoice);//concat method solve the problem of push() method
 
 let myRealChoice = [...myFavFruits, ...myFavNames];//this is the spread method which is widely used for the joining two or more string together
 console.log(myRealChoice);
