@@ -1,8 +1,8 @@
-let myFavNames = ["sakshi", "vaishu", "dhanshree", "muskan"];
-console.log(myFavNames);
+let myFavNames = ["sakshi", "vaishu", "mummy"];
+// console.log(myFavNames);
 
-let myFavFruits = ["apple", "mango", "banana", "orange"];
-console.log(myFavFruits);
+let myFavFruits = ["pune", "mumbai", "nashik"];
+// console.log(myFavFruits);
 
 myFavNames.push(myFavFruits);
 console.log(myFavNames);//here whenever we push one content of file into another it will look like array within array like [1,2,[3,4]] 1 and 2 are content if file 1 and 3, content of file 2

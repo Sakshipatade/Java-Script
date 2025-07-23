@@ -12,24 +12,24 @@
 */
 
 //Now we check the type of the datatype which are primitive
-// const firstId=Symbol("123");
-// const secondId=Symbol("123")
-// const thirdId=Symbol(123)
-// let userEmail;
-// const score=322;
-// let userName="Sakshi";
-// const isLoggedIn=false;
-// let userAddress=null;
+const firstId=Symbol("123");
+const secondId=Symbol("123")
+const thirdId=Symbol(123)
+let userEmail;
+const score=322;
+let userName="Sakshi";
+const isLoggedIn=false;
+let userAddress=null;
 
 
-// console.log(typeof firstId);
-// console.log(typeof secondId);
-// console.log(typeof thirdId);
-// console.log(typeof userEmail);
-// console.log(typeof score);
-// console.log(typeof userName);
-// console.log(typeof isLoggedIn);
-// console.log(typeof userAddress);
+console.log(typeof firstId);
+console.log(typeof secondId);
+console.log(typeof thirdId);
+console.log(typeof userEmail);
+console.log(typeof score);
+console.log(typeof userName);
+console.log(typeof isLoggedIn);
+console.log(typeof userAddress);
 
 //----------------------------------------------------------------
 //Non Primitive datatypes
@@ -59,5 +59,5 @@ const myFunction = function(){
     Undefined => Undefined
     Symbol => Symbol
     function => function
-    
+
 */
