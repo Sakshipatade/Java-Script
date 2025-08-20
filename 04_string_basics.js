@@ -18,8 +18,6 @@ There are two types of strings
     const name2 = new String("Sakshi");
     console.log(name2);
     //here the output will be [String: 'Sakshi']
-
-
     //Both ways are used for creating strings
     
     /*
