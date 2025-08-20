@@ -1,2 +1,2 @@
 # Java-Script
-All js codes
+Java-Script practice code
