@@ -21,6 +21,7 @@ let array1 = Array.from("Sakshi");
 console.log(array1);
 //when i want a word in the form of array from is used
 
+
 let score1 = 100
 let score2 = 200
 let score3 = 300
