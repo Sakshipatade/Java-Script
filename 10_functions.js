@@ -2,8 +2,8 @@ function sayMyName(){
     console.log("Hii i am sakshi");
     
 }
-
 sayMyName()
+
 //Output: Hii i am sakshi
 //This is the normal way to print any body in the function 
 
@@ -30,7 +30,7 @@ console.log(result);
 function isLoggedIn(username){
     return `Welcome ${username} ! You are logged In.`
 }
-// `` <-This is called as string interpolation 
+// '' <-This is called as string interpolation 
 
 let username_string= isLoggedIn("Sakshi")
 console.log(username_string);
