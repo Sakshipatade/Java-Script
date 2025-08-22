@@ -1,8 +1,7 @@
 function calculateMyCart(...num){
     return num
 }
-console.log(calculateMyCart(200,400,100))
-//this is called as rest method or spread method
+console.log(calculateMyCart(200,400,100))//this is called as rest method or spread method
 
 
 let myObject = {
