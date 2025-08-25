@@ -9,7 +9,6 @@ sayMyName()
 
 function addition(num1, num2){
     //here num1 and num2 are called the parameters not the arguments
-
     //so we can simply do this
     // let result = num1 + num2
     // return result
