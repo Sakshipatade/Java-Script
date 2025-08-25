@@ -8,7 +8,7 @@ console.log(typeof age);
 console.log(typeof city);
 
 
-//In this assignment we learn the use of "use strict" and use of "typeof"
+//In this assignment we learned the use of "use strict" and use of "typeof"
 
 
 
