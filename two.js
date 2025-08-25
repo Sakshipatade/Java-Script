@@ -6,6 +6,7 @@ let anyNumber = Number(score)// here Number method is used to convert the value 
 console.log(anyNumber);
 console.log(typeof anyNumber);
 
+
 //converting the boolean true or false into value format like 0/1
 //1 => true; 0 => false
 let isLoggedIn=true
