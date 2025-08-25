@@ -49,6 +49,7 @@ let randomString=""
 let testing=Number(randomString)
 console.log(testing);
 console.log(typeof testing);
+
 //note: the value of empty string is always comes 0
 
 
