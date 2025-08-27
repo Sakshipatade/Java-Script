@@ -1,3 +1,3 @@
 /*
-    In this Repository We are learning everything about javascript
+    In this Repository We are learning everything about javascript language
 */
