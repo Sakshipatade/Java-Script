@@ -45,3 +45,21 @@ console.log(multiply(5));    // 10 (y defaults to 2)
 console.log(multiply(5, 3)); // 15
 
 
+//unction Expression (store function in a variable)
+const square = function(num) {
+  return num * num;
+};
+
+console.log(square(4)); // 16
+
+//Arrow Functions (ES6)
+const greetUser = (name) => {
+  return `Hello, ${name}!`;
+};
+
+console.log(greetUser("Sakshi")); // Hello, Sakshi!
+
+//Shortcut for single-line arrow functions:
+const double = n => n * 2;
+
+console.log(double(7)); // 14
