@@ -25,3 +25,23 @@ const student = {
 
 console.log(student.subjects.math);   // 85
 console.log(student.subjects.english); // 90
+
+
+//Function with Parameters
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(5, 3)); // 8
+console.log(add(10, 20)); // 30
+
+
+//Function with Default Parameters
+function multiply(x, y = 2) {
+  return x * y;
+}
+
+console.log(multiply(5));    // 10 (y defaults to 2)
+console.log(multiply(5, 3)); // 15
+
+
