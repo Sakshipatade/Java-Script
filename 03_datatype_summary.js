@@ -11,6 +11,7 @@
     ->Arrays, Object, Function
 */
 
+
 //Now we check the type of the datatype which are primitive
 const firstId=Symbol("123");
 const secondId=Symbol("123")

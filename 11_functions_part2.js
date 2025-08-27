@@ -3,6 +3,7 @@ function calculateMyCart(...num){
 }
 console.log(calculateMyCart(200,400,100)) 
 //this is called as rest method or spread method used most
+console.log(calculateMyCart(200,400,100))//this is called as rest method or spread method
 
 
 let myObject = {

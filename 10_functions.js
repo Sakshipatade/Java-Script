@@ -2,14 +2,13 @@ function sayMyName(){
     console.log("Hii i am sakshi");
     
 }
-
 sayMyName()
+
 //Output: Hii i am sakshi
 //This is the normal way to print any body in the function 
 
 function addition(num1, num2){
     //here num1 and num2 are called the parameters not the arguments
-
     //so we can simply do this
     // let result = num1 + num2
     // return result
@@ -30,7 +29,7 @@ console.log(result);
 function isLoggedIn(username){
     return `Welcome ${username} ! You are logged In.`
 }
-// `` <-This is called as string interpolation 
+// '' <-This is called as string interpolation 
 
 let username_string= isLoggedIn("Sakshi")
 console.log(username_string);

@@ -10,6 +10,7 @@
     this is how we can create constructor 
 */
 
+
 //Normally We create objects like the following
 const mySymbol = Symbol("key1");
 const jsUser = {
