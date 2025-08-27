@@ -63,3 +63,13 @@ console.log(greetUser("Sakshi")); // Hello, Sakshi!
 const double = n => n * 2;
 
 console.log(double(7)); // 14
+
+//Function Inside an Object (Method)
+const person = {
+  name: "Sakshi",
+  sayHello: function() {
+    return `Hi, my name is ${this.name}`;
+  }
+};
+
+console.log(person.sayHello()); // Hi, my name is Sakshi
