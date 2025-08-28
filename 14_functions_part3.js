@@ -37,3 +37,9 @@ function greetUser(name = "Guest") {
 greetUser();      // Hello, Guest
 greetUser("Sakshi"); // Hello, Sakshi
 
+//Rest Parameters (...args)
+//To accept multiple values as an array.
+function sum(...numbers) {
+  return numbers.reduce((a, b) => a + b, 0);
+}
+console.log(sum(2, 4, 6, 8)); // 20
