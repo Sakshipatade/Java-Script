@@ -20,3 +20,9 @@ console.log(multiply(4, 6)); // 24
 const square = (num) => num * num;
 console.log(square(5)); // 25
 
+//Anonymous Function (No name, used inside other functions)
+setTimeout(function() {
+  console.log("This runs after 2 seconds");
+}, 2000);
+
+
