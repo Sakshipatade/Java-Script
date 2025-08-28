@@ -30,3 +30,10 @@ setTimeout(function() {
   console.log("IIFE executed!");
 })();
 
+//Default Parameters in Functions
+function greetUser(name = "Guest") {
+  console.log("Hello, " + name);
+}
+greetUser();      // Hello, Guest
+greetUser("Sakshi"); // Hello, Sakshi
+
