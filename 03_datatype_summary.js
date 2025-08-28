@@ -50,9 +50,8 @@ const myFunction = function(){
     console.log("Hello! I am Sakshi");
 }
 
-//This are some examples of non-primitive datatypes
-
 /* 
+    //This are some examples of non-primitive datatypes
     String => String
     Number => Number
     Boolean => Boolean
@@ -60,5 +59,4 @@ const myFunction = function(){
     Undefined => Undefined
     Symbol => Symbol
     function => function
-
 */
