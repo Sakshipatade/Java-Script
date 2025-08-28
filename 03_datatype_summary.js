@@ -51,7 +51,7 @@ const myFunction = function(){
 }
 
 /* 
-    //This are some examples of non-primitive datatypes
+    This are some examples of non-primitive datatypes
     String => String
     Number => Number
     Boolean => Boolean
