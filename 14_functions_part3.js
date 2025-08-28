@@ -10,3 +10,9 @@ function add(a, b) {
 }
 console.log(add(5, 3)); // 8
 
+//Function Expression (Stored in a variable)
+const multiply = function(x, y) {
+  return x * y;
+};
+console.log(multiply(4, 6)); // 24
+
