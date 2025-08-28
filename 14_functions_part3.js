@@ -25,4 +25,8 @@ setTimeout(function() {
   console.log("This runs after 2 seconds");
 }, 2000);
 
+//Immediately Invoked Function Expression (IIFE)
+(function() {
+  console.log("IIFE executed!");
+})();
 
