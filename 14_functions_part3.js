@@ -35,7 +35,7 @@ function greetUser(name = "Guest") {
   console.log("Hello, " + name);
 }
 greetUser();      // Hello, Guest <- This is the output
-greetUser("Sakshi"); // Hello, Sakshi
+greetUser("Sakshi"); // Hello, Sakshi <- This is the output
 
 //Rest Parameters (...args)
 //To accept multiple values as an array.
