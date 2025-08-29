@@ -14,7 +14,7 @@ console.log(add(5, 3)); // 8
 const multiply = function(x, y) {
   return x * y;
 };
-console.log(multiply(4, 6)); // 24
+console.log(multiply(4, 6)); // 24 will be the ouput
 
 //Arrow Function (ES6)
 const square = (num) => num * num;
