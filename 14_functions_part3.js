@@ -18,7 +18,7 @@ console.log(multiply(4, 6)); // 24 will be the ouput
 
 //Arrow Function (ES6)
 const square = (num) => num * num;
-console.log(square(5)); // 25
+console.log(square(5)); // 25 will be the output
 
 //Anonymous Function (No name, used inside other functions)
 setTimeout(function() {
