@@ -8,7 +8,7 @@ greet(); // Calling the function
 function add(a, b) {
   return a + b;
 }
-console.log(add(5, 3)); // 8
+console.log(add(5, 3)); // 8 will be the output
 
 //Function Expression (Stored in a variable)
 const multiply = function(x, y) {
