@@ -34,7 +34,7 @@ setTimeout(function() {
 function greetUser(name = "Guest") {
   console.log("Hello, " + name);
 }
-greetUser();      // Hello, Guest
+greetUser();      // Hello, Guest <- This is the output
 greetUser("Sakshi"); // Hello, Sakshi
 
 //Rest Parameters (...args)
