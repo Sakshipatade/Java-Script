@@ -1,0 +1,13 @@
+There is Javascript Execution Context
+
+which includes :
+    1. Global Execution Context
+    |_  has two phases
+        i. Memory creation phase
+        ii. Execution phase
+            |_  new Execution environment + Execution thread (get created in many situations and repeating the memory and execution phase)
+
+
+    2. Functional Execution Context
+    3. Eval Execution Context
+
