@@ -17,3 +17,4 @@ if (loggedInFromGoogle || loggedInFromEmail) {
 }
 //either this or this : any one condtion should be true
 //we can also take value1 || value2 || value3
+
