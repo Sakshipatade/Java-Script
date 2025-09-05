@@ -27,3 +27,13 @@ if(username==="sakshi"){
     }
 
 }
+
+
+//function is stored in the variable 
+
+const function_exmaple = function addNum(num1, num2){
+    return num1+num2
+}
+console.log(function_exmaple(4,3));
+
+//here function_example is variable and addNum function is added in that variable
