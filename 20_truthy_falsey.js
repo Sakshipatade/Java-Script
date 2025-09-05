@@ -39,3 +39,29 @@ else {
 
 //falsey values
 // {}, " ", 0, -0, false, null, undefined
+
+
+const myObj = {}
+
+if (Object.keys(myObj.lenght == 0)) {
+    console.log("length is 0");
+    
+}
+else{
+    console.log("length is not 0");
+    
+}
+
+
+//how to compare array length is equal to zero or not
+
+const myArray3 = []
+
+if (myArray3.length == 0) {
+    console.log("length is zero");
+    
+}
+else{
+    console.log("length is not zero");
+    
+}
