@@ -41,7 +41,7 @@ const myUser = {
     id:13,
     isLoggedIn :true,
 
-    showWelcomeMessage(){
+    showWelcomeMessage: function(){
         console.log(` ${this.name} , welcome user`);
         
     }  
