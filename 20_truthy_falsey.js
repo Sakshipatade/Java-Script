@@ -65,3 +65,6 @@ else{
     console.log("length is not zero");
     
 }
+
+
+//truthy and falsey values
