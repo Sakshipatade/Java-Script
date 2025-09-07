@@ -10,6 +10,7 @@ if (isUserLoggedIn && haveDebitCard) {
 }
 //use of && operator : both conditions should be true
 //we can also take value1 && value2 && value3
+//we can more than 2 condtions using AND operator
 
 if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("welcome you!!!");
