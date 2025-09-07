@@ -22,3 +22,6 @@ switch (color) {
         
         break;
 }
+
+
+//If does not use break , the statments after below will all be executed
