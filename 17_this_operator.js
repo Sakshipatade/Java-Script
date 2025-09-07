@@ -67,5 +67,5 @@ const myAccountDetails = {
 myAccountDetails.checkDetails()
 
 //In this way, the "this" operator works in "Object" only in modern browser
-//It will work in functions too but in old browser
+
 
