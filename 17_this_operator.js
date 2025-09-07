@@ -66,5 +66,5 @@ const myAccountDetails = {
 
 myAccountDetails.checkDetails()
 
-//In this way the this operator works in object only
+//In this way the this operator works in "Object" only
 
