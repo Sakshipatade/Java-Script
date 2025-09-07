@@ -40,7 +40,7 @@
     
 })("sakshi")
 
-
+//------------------------------------JavaScript Call Stack Working----------------------------------------
 //how javascipt call stack works
 function one(){
     console.log("one");    
@@ -59,3 +59,4 @@ function three() {
 one()
 two()
 three()
+
