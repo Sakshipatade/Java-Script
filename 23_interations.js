@@ -6,11 +6,11 @@ for (let i = 0; i <= 10; i++ ) {
 
 
 for (let i = 0; i <= 10 ; i++) {
-    console.log(`Outer Scope Value : ${i}`);
+   // console.log(`Outer Scope Value : ${i}`);
 
         for (let j = 0; j <= 10; j++) {
         
-            console.log(`Inner Scope values : ${j} and Outer Scope: ${i}`);
+           // console.log(`Inner Scope values : ${j} and Outer Scope: ${i}`);
             
     }
 }
