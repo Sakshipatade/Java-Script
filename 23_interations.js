@@ -28,3 +28,10 @@ for (let i = 0; i < myArray.length; i++) {
     console.log(`Array elements are: ${myArray[i]}`);
     
 }
+
+//finding the value in array using below code:
+function findIndex () {
+    console.log(myArray[2]);
+    
+}
+findIndex();
