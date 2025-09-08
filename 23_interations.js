@@ -16,3 +16,15 @@ for (let i = 0; i <= 10 ; i++) {
 }
 
 //nested for loop
+
+
+
+const myArray = ["Sakshi" , "Vaishu", "Mummy", "Pappa"]
+
+for (let i = 0; i < myArray.length; i++) {
+    // const element = myArray[i];
+    // console.log(element);
+    
+    console.log(`Array elements are: ${myArray[i]}`);
+    
+}
