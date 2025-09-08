@@ -19,7 +19,7 @@ for (let i = 0; i <= 10 ; i++) {
 
 
 
-const myArray = ["Sakshi" , "Vaishu", "Mummy", "Pappa"]
+const myArray = ["Sakshi" , "Vaishu", "Mummy", "Pappa"];
 
 for (let i = 0; i < myArray.length; i++) {
     // const element = myArray[i];
