@@ -22,9 +22,11 @@ for (let i = 0; i <= 10 ; i++) {
 const myArray = ["Sakshi" , "Vaishu", "Mummy", "Pappa"];
 
 for (let i = 0; i < myArray.length; i++) {
-    // const element = myArray[i];
-    // console.log(element);
+    //this is the first way to print the array values
+    const element = myArray[i];
+    console.log(element);
     
+    //this is the second way to print the array values
     console.log(`Array elements are: ${myArray[i]}`);
     
 }
