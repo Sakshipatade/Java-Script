@@ -16,6 +16,7 @@ for (let i = 0; i <= 10 ; i++) {
 }
 
 //nested for loop
+//means loop inside another loop
 
 
 
