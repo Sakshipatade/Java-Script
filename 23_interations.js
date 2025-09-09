@@ -18,8 +18,6 @@ for (let i = 0; i <= 10 ; i++) {
 //nested for loop
 //means loop inside another loop
 
-
-
 const myArray = ["Sakshi" , "Vaishu", "Mummy", "Pappa"];
 
 for (let i = 0; i < myArray.length; i++) {
