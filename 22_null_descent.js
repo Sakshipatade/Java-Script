@@ -7,8 +7,6 @@ console.log(val2);
 //nullish descent method uses ?? 
 //basically it is used in the time of fetching large data , or handling network
 
-
-
 //ternairy operator and nullish method are two different things 
 
 //--------------------------------------------------------------------------------
