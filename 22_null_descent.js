@@ -16,7 +16,6 @@ console.log(val2);
 
 //Syntax : condition ? true : false
 
-
 let score = 100;
 score > 50 ? console.log("Score is greater than 50") : console.log("Score is not greater than 50");
  
