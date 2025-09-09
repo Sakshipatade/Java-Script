@@ -1,6 +1,7 @@
 let val1 = 10 ?? 15
 console.log(val1);
 
+
 let val2 = null ?? 13;
 console.log(val2);
 
