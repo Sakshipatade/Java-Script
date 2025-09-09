@@ -9,7 +9,6 @@ console.log(val2);
 
 //ternairy operator and nullish method are two different things 
 
-//--------------------------------------------------------------------------------
 
 //Ternairy operator
 
