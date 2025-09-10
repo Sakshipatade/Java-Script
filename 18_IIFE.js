@@ -11,10 +11,10 @@
 
 //named iffe is as follows:
 
-// ( function addName() {
-//     console.log("Hii, Sakshi");
+( function addName() {
+    console.log("Hii, Sakshi");
     
-// })()
+})()
 //simple named iife
 
 ( function addName(name) {
