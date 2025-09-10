@@ -7,6 +7,7 @@
 //named iife
 //unnamed iife
 
+//------------------------------------------------------Named Functions-------------------------------------------
 
 //named iffe is as follows:
 
