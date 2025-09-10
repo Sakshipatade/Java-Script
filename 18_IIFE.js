@@ -28,10 +28,10 @@
 
 //un-named iife
 
-// ( () => {
-//     console.log("welcome sakshi");
+( () => {
+    console.log("welcome sakshi");
     
-// })()
+})()
 
 //this is simple un-named iife without passing parameter
 
