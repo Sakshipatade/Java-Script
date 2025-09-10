@@ -42,7 +42,7 @@
 })("sakshi")
 
 //------------------------------------JavaScript Call Stack Working----------------------------------------
-//how javascipt call stack works
+// below shows ,how javascipt call stack works
 function one(){
     console.log("one");    
     two()
