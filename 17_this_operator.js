@@ -1,31 +1,31 @@
-// const username = "sakshi";
-// if (username === "sakshi") {
-//     let isLoggedIn = true;
-//     const userid = 13;
-//     if (isLoggedIn === true) {
+const username = "sakshi";
+if (username === "sakshi") {
+    let isLoggedIn = true;
+    const userid = 13;
+    if (isLoggedIn === true) {
         
-//         function welcomeUser() {
-//             console.log(`${this.userid} , welcome to your account`);
+        function welcomeUser() {
+            console.log(`${this.userid} , welcome to your account`);
             
-//         }
-//         welcomeUser()
+        }
+        welcomeUser()
     
-//     }
-// }
+    }
+}
 
 
-// const username = "sakshi";
-// if (username === "sakshi") {
-//     let isLoggedIn = true;
-//     const userid = 13;
+const username = "sakshi";
+if (username === "sakshi") {
+    let isLoggedIn = true;
+    const userid = 13;
 
-//     if (isLoggedIn === true) {
-//         function welcomeUser() {
-//             console.log(`${userid}, welcome to your account`);
-//         }
-//         welcomeUser();
-//     }
-// }
+    if (isLoggedIn === true) {
+        function welcomeUser() {
+            console.log(`${userid}, welcome to your account`);
+        }
+        welcomeUser();
+    }
+}
 
 //Conclusion
 
