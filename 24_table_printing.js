@@ -6,9 +6,9 @@ for (let i = 1; i <= 10; i++) {
     }  
 }
 
+
+
 //if we want to break the control flow then we will use "break" keyword
-
-
 for (let i = 1; i <= 20; i++) {
 
     if (i == 5) {
