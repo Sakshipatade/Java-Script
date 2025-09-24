@@ -18,3 +18,4 @@ for (let i = 1; i <= 20; i++) {
     console.log(`value of i is ${i}`) //this code will not printed because of the break keyword
     
 }
+
