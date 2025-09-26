@@ -2,7 +2,7 @@ for(let i = 0; i <= 4; i++){
     for(j = 0; j <= i; j++){
         console.log("*");
     }
-  //  console.log(" ");
+  // console.log(" ");
     
 }
 //the output is not printing 
