@@ -5,7 +5,7 @@ for(let i = 0; i <= 4; i++){
   //  console.log(" ");
     
 }
-5 
+//the output is not printing 
 
 
 // let pattern_value = 0;
