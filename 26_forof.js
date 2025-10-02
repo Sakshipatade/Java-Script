@@ -1,6 +1,6 @@
 let arr = [1,2,3,4,5]
 for (const element of arr) {
-    console.log(element);
+   // console.log(element);
     
 }
 
@@ -9,5 +9,4 @@ for (const element of arr) {
 let greetings = "Hello World!";
 for (const greet of greetings) {
     console.log(greet);
-    
 }
