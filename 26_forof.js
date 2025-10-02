@@ -8,6 +8,6 @@ for (const element of arr) {
 
 let greetings = "Hello World!";
 for (const greet of greetings) {
-    console.log(greetings);
+    console.log(greet);
     
 }
