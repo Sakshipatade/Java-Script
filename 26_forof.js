@@ -5,7 +5,6 @@ for (const element of arr) {
 }
 
 //now iterate in String
-
 let greetings = "Hello World!";
 for (const greet of greetings) {
     console.log(greet);
