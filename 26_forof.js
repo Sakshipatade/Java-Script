@@ -13,4 +13,3 @@ for (const greet of greetings) {
     console.log(greet);
 }
 
-
