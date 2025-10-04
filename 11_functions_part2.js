@@ -15,4 +15,3 @@ function returnObjectValue(objValue){
     
 }
 console.log(returnObjectValue(myObject))
-
