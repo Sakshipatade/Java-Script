@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+   <label>Choose Font Size</label>
+    <select id="font_size_list">
+    <option value="10">10</option>
+    <option value="20">20</option>
+    <option value="30">30</option>
+    <option value="40">40</option>
+    <option value="50">50</option>
+    <option value="60">60</option>
+    <option value="70">70</option>
+    <option value="80">80</option>
+    <option value="90">90</option>
+    <option value="100">100</option>
+   </select>
+   &nbsp;
+
+   <label for="color">Choose Font Color</label>
+   <select name="color" id="font_color_list">
+    <option value="Black">Black</option>
+    <option value="Red">Red</option>
+    <option value="Green">Green</option>
+    <option value="Blue">Blue</option>
+    <option value="Yellow">Yellow</option>
+    <option value="Pink">Pink</option>
+   </select>
+   &nbsp;
+
+   <label for="font_family">Choose Font Family</label>
+   <select id="font_family_list">
+    <option value="Verdana">Verdana</option>
+    <option value="Arial">Arial</option>
+    <option value="Helvetica">Helvetica</option>
+    <option value="Times New Roman">Times New Roman</option>
+    <option value="Georgia">Georgia</option>
+    <option value="Courier New">Courier New</option>
+   </select>
+   <br>
+
+
+   <input type="button" value="Change" onclick="changeStyle()">
+   &nbsp;
+   <p id="p1" style="font-size: 20px;">Sakshi</p>
+
+   <script>
+    function changeStyle() {
+       font_size =  document.getElementById("font_size_list").value;
+       size = parseInt(font_size);
+       document.getElementById("p1").style.fontSize = size + "px";
+
+       font_color = document.getElementById("font_color_list").value
+       document.getElementById("p1").style.color = font_color
+
+      font_family = document.getElementById("font_family_list").value
+      document.getElementById("p1").style.fontFamily = font_family
+    }
+   </script>
+</body>
+</html>
