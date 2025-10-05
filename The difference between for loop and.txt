@@ -1,0 +1,7 @@
+The difference between for loop and for each loop is as follows:
+
+
+for loop has all control over loop. but it need to initialize all the terms like index, condition and increment/decrement
+
+for each loop automatically handle this and handle index and it iterate through each item insteadly.
+
