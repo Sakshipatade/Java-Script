@@ -7,12 +7,31 @@
 let myArray = [100,200,400];
 let acc = 0;
 const cart_total = myArray.reduce( (acc, item) => {
-    console.log(`now acc is ${acc} and item is ${item}`); //firstly its value is '0' and it get add with the 'item' value each time(because it goes one by one into array values)
+   // console.log(`now acc is ${acc} and item is ${item}`); //firstly its value is '0' and it get add with the 'item' value each time(because it goes one by one into array values)
 
     return acc+item
 } )
 
-console.log(cart_total);
+//console.log(cart_total);
 
 
+//we can done this also as follows:
 
+let myArray1 = [
+    {
+        name : 'Java',
+        price : 2000
+    },
+
+    {
+        name : 'python',
+        price : 3000
+    },
+    {
+        name : 'C++',
+        price : 5000
+    }
+]
+
+const new_cart = myArray1.reduce( (acc, item) => (acc + item.price), 0)
+console.log(new_cart);
