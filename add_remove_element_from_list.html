@@ -2,35 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <label for="name">Enter name: </label>
-    <input type="text" id="name">
+    <!--<label for="name">Enter name: </label>
+    <input type="text" id="name"> -->
+    <!--<input type="button" value="REMOVE" onclick="removeData()"> -->
 
-    <input type="button" value="ADD" onclick="addData()">
-    <input type="button" value="REMOVE" onclick="removeData()">
-
-    <select id="name_list">
+    <select id="name_list_one">
         <option value="Sakshi">Sakshi</option>
         <option value="Vaishnavi">Vaishnavi</option>
         <option value="Akshay">Akshay</option>
     </select>
 
+    &nbsp;
+    <input type="button" value="ADD ==>" onclick="addDatatoRight()">
+    <input type="button" value="<== ADD" onclick="addDatatoLeft()">
+    &nbsp;
+
+    <select  id="name_list_two">
+        <option value="Sushama">Sushama</option>
+    </select>
+
 
     <script>
-        function addData() {
-           name =  document.getElementById("name").value;
-           list = document.getElementById("name_list");
-           option = new Option(name);
-           list.add(option);
+        function addDatatoRight() {
+           list1 = document.getElementById("name_list_one");
+           current_index = list1.selectedIndex;
+           selected_item = list1.item(current_index)
+
+           list1.remove(current_index);
+
+          list2 = document.getElementById("name_list_two");
+          list2.add(selected_item);
+        //   option = new Option(selected_item);
+        //   list2.add(option);
         }
 
-        function removeData() {
-           list = document.getElementById("name_list");
-           curr_index = list.selectedIndex;
-           list.remove(curr_index);
+        // function removeData() {
+        //    list = document.getElementById("name_list");
+        //    curr_index = list.selectedIndex;
+        //    list.remove(curr_index);
+        // }
+        function addDatatoLeft(){
+           list2 = document.getElementById("name_list_two");
+           current_index = list2.selectedIndex;
+          selected_item = list2.item(current_index);
+            list.remove(current_index);
+
+
+          list1 = document.getElementById("name_list_one");
+          list1.add(selected_item);
+
         }
     </script>
 </body>
