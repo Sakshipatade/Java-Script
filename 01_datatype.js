@@ -1,4 +1,4 @@
-"use strict";// it treats all js code as newer version of js  but there is no need to write it anyway js do it automaticaaly
+"use strict";// it treats all js code as newer version of js  but there is no need to write it, js do it automaticaaly
 
 let name1 = "sakshi"
 let age = 20
@@ -42,7 +42,7 @@ function capitalizeSentences(text) {
 
 
 //part 2 ConversionOperation
-//NaN stands for not a number
+//NaN stands for "Not a number"
 
 let score=33
 let anyNumber = Number(score)// here Number method is used to convert the value into number format
