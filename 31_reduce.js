@@ -6,10 +6,10 @@
 
 let myArray = [100,200,400];
 let acc = 0;
-const cart_total = myArray.reduce( (acc, item) => {
+const cart_total = myArray.reduce( (accumalator, item) => {
    // console.log(`now acc is ${acc} and item is ${item}`); //firstly its value is '0' and it get add with the 'item' value each time(because it goes one by one into array values)
 
-    return acc+item
+    return accumalator+item
 } )
 
 //console.log(cart_total);
