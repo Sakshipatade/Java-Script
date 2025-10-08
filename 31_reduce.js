@@ -19,6 +19,7 @@ const cart_total = myArray.reduce( (accumalator, item) => {
 
 let myArray1 = [
     {
+
         name : 'Java',
         price : 2000
     },
@@ -34,4 +35,4 @@ let myArray1 = [
 ]
 
 const new_cart = myArray1.reduce( (acc, item) => (acc + item.price), 0)
-console.log(new_cart);
+console.log(new_cart); 
