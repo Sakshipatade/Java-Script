@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mouse Hover Example</title>
+</head>
+<body>
+   <p 
+        id="p1" 
+        onmouseover="changeTextColor()"
+        onmouseout="retainTheSize()"
+        style="color:black;font-size:20px;"> Click Me</p>
+        <br>
+
+
+        <script>
+        function changeTextColor()
+        {
+        p1=document.getElementById("p1");
+        p1.style.color="red";
+        p1.style.fontSize="30px";
+        } 
+
+        function retainTheSize()
+        {
+        p1=document.getElementById("p1");
+        p1.style.color="black";
+        p1.style.fontSize="20px";
+        }
+</script>
+</body>
+</html>
