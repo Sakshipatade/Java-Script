@@ -1,2 +1,2 @@
-# Java-Script Series.
+# Java-Script (Basics to Advance)
 
