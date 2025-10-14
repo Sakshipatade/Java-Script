@@ -1,2 +1,2 @@
-# Java-Script Codes for Practice.
+# Java-Script Series.
 
