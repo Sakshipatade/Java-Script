@@ -68,9 +68,9 @@ let name='sakshi'
 let checking= Boolean(name)
 console.log(checking);
 console.log(typeof checking);
-//note: When a string is get converted into boolean format it always returns the value true
+// note: When a string is get converted into boolean format it always returns the value true
 
-//now checking for a string containing both number and alphabets in it
+// now checking for a string containing both number and alphabets in it
 let anyString="34abc"
 let test=Number(anyString)
 console.log(test);
@@ -82,19 +82,19 @@ let checked=Number(value)
 console.log(checked);
 console.log(typeof checked);
 
-//now let us check for the ndefined value
+// //now let us check for the undefined value
 let value1=undefined
 let checkedd=Number(value1)
 console.log(checkedd);
 console.log(typeof checkedd);
 
-//let us checking for the empty string 
+// //let us checking for the empty string 
 let randomString=""
 let testing=Number(randomString)
 console.log(testing);
 console.log(typeof testing);
 
-//note: the value of empty string is always comes 0
+// //note: the value of empty string is always comes 0
 
 
 
