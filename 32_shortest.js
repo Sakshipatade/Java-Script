@@ -6,3 +6,5 @@ function b() {
 console.log(a);
 
 //What ever we put outside of the function is called as Global Space
+
+  
