@@ -21,7 +21,7 @@ the major difference between let and var is
 let is only for block scope
 
 
-and var is for global scope 
+and var is for global scope and Functional scope 
 
 
 //let us take an example of var 
@@ -36,21 +36,19 @@ document.write(x); //it will access here too
 
 
 let x = 10;
-
 if(true){
 	document.write(x); //x will not access here
 }
-
 document.write(x); //it will be accessed here 
 
 ------------------------------------------------------------------------------------------------------
 
-The difference between for loop and for each loop is as follows:
+The difference between for-loop and for-each loop is as follows:
 
 
-for loop has all control over loop. but it need to initialize all the terms like index, condition and increment/decrement
+for-loop has all control over loop. but it need to initialize all the terms like index, condition and increment/decrement
 
-for each loop automatically handle this and handle index and it iterate through each item insteadly.
+for-each loop automatically handle this and handle index and it iterate through each item insteadly.
 
 
 
