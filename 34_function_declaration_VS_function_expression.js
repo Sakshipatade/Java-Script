@@ -45,7 +45,7 @@ function b() {
     if (true) {
         let val2 = 20;
     }
-    console.log(val2);//trying to access val2 outside its scope gives reference error
+    console.log(val2);//trying to access val2 outside its scope gives reference error because it is undefined
 }
 b();
 
