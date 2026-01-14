@@ -60,3 +60,13 @@ Element can be accessed by two ways like below
 2. using directly name -> document.form.name 
 
 
+----------------------------------------------------------------------------------------
+Hoisting means:
+--JavaScript reserves memory for the variable name OR 
+--JavaScript knows about a variable or function before the code runs,
+even if it is written later in the code.
+
+
+Temporal Dead Zone = “You are NOT allowed to use this variable yet”
+Temporal Dead Zone is the period between entering a scope and initializing a let or const variable,
+ during which accessing it throws a ReferenceError.
