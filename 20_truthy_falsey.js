@@ -43,7 +43,7 @@ else {
 
 const myObj = {}
 
-if (Object.keys(myObj.lenght == 0)) {
+if (Object.keys(myObj.length == 0)) {
     console.log("length is 0");
     
 }

@@ -14,7 +14,7 @@ if (username === "sakshi") {
 }
 
 
-const username = "sakshi";
+const username1 = "sakshi";
 if (username === "sakshi") {
     let isLoggedIn = true;
     const userid = 13;
