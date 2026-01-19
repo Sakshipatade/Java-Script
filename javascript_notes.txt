@@ -70,3 +70,8 @@ even if it is written later in the code.
 Temporal Dead Zone = “You are NOT allowed to use this variable yet”
 Temporal Dead Zone is the period between entering a scope and initializing a let or const variable,
  during which accessing it throws a ReferenceError.
+
+Closure means:
+--A closure is created when a function remembers variables from its outer (parent) function, 
+even after the parent function has finished executing.
+--“I remember where I came from.”
