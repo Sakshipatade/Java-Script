@@ -75,3 +75,7 @@ Closure means:
 --A closure is created when a function remembers variables from its outer (parent) function, 
 even after the parent function has finished executing.
 --“I remember where I came from.”
+
+Callback Function
+--A callback function is a function that is passed as an argument to another function, and is called (executed) later.
+--“Call me back when your work is done.”
