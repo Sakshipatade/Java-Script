@@ -6,3 +6,16 @@ let newArray = myArray
                 .filter( (num) => num > 20  )//this is called chaining 
 console.log(newArray);
 //this is basic map function which always returns value
+
+
+const arr = [5, 3, 2, 2,1]
+
+function binary(x){
+    return x.toString(2);
+}
+
+function double(x){
+    return x * 2;
+}
+const output = arr.map(double);
+console.log(output)
