@@ -9,10 +9,6 @@ console.log(typeof city);
 
 
 //In this assignment we learned the use of "use strict" and use of "typeof"
-
-
-
-
 const accountId=67622
 let accountEmail="sakshi@gmail.com"
 let accountCity="pune"
