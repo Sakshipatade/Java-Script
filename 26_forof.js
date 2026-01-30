@@ -16,7 +16,7 @@ for (const greet of greetings) {
 let myName = "sakshi is my best friend";
 for (const element of myName) {
     if (element == " ") {
-        console.log("-----");//dahs is printed where space detected
+        console.log("-----");//dash is printed where space detected
         
     }
     console.log(element);
